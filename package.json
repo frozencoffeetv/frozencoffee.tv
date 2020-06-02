@@ -1,0 +1,18 @@
+{
+  "name": "frozencoffee.tv",
+  "version": "1.0.0",
+  "description": "The official website of FrozencoffeeTV",
+  "main": "index.js",
+  "repository": "git@github.com:frozencoffeetv/frozencoffee.tv.git",
+  "author": {
+    "name": "FrozencoffeeTV (Nico Greco)",
+    "email": "frozencoffeetv@gmail.com",
+    "url": "http://frozencoffeetv.netlify.app"
+  },
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir dist; cp src/index.html dist/index.html",
+    "test": "echo \"test cmd: Not implemented\""
+  }
+}
